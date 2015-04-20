@@ -10,6 +10,7 @@ Thumbs.db
 nbproject
 .idea
 .sass-cache
+node_modules
 
 /slides
 /code_snippets

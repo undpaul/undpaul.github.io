@@ -1,0 +1,9 @@
+{
+  "private": true,
+  "main": "Gruntfile.js",
+  "dependencies": {},
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-sass": "^0.18.1"
+  }
+}
