@@ -1,0 +1,29 @@
+/**
+ * Test for libsass
+ *
+ * Should output:
+ * .a .c .b::-webkit-scrollbar, .a .b::-webkit-scrollbar { color: green; }
+ */
+%a {
+  &::-webkit-scrollbar {
+    color: green;
+  }
+}
+%b {
+  @extend %a;
+}
+
+
+.a {
+  .b {
+    @extend %a;
+  }
+
+  .c {
+    .b {
+      @extend %b;
+    }
+  }
+}
+
+/** END Test */

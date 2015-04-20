@@ -18,7 +18,8 @@ pre.terminal:before {
 h3.pane-icon a {
   color: #0281C7; }
 
-h3.pane-icon a:hover, h3.pane-icon a:focus {
+h3.pane-icon a:hover,
+h3.pane-icon a:focus {
   color: #77B302; }
 
 .pane-icon {

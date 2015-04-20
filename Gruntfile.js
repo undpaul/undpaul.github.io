@@ -8,6 +8,11 @@ module.exports = function(grunt) {
         files: {
           'css/style.css': 'sass/style.scss'
         }
+      },
+      test: {
+        files: {
+          'css/test.css': 'sass/test.scss'
+        }
       }
     },
     watch: {
