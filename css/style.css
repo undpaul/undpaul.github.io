@@ -12,8 +12,17 @@ header:after {
   width: 100%;
   background: linear-gradient(to right, #dddddf, #dddddf 13%, #fff 13%, #fff 14%, #0281C7 14%, #0281C7 18%, #fff 18%, #fff 19%, #77B302 19%, #77B302 27%, #fff 27%, #fff 28%, #dddddf 28%, #dddddf); }
 
+footer {
+  margin-top: 3em;
+  font-size: 75%;
+  border-top: 1px solid #dddddf;
+  padding: 2em; }
+
 h1, h2 {
   color: #77B302; }
+
+h3 {
+  margin: 0.75em 0 0.25em; }
 
 a {
   color: #0281C7;
@@ -53,3 +62,12 @@ ul.menu--main {
       color: #fff; }
       ul.menu--main a:hover:after {
         opacity: 1; }
+
+pre {
+  max-width: 100%;
+  overflow: auto;
+  padding: 1em;
+  border: 1px solid #dddddf; }
+
+.terminal:before {
+  content: '$ '; }

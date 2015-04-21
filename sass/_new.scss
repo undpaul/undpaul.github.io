@@ -31,8 +31,18 @@ header:after {
   );
 }
 
+footer {
+  margin-top: 3em;
+  font-size: 75%;
+  border-top: 1px solid $up-gray;
+  padding: 2em;
+}
+
 h1, h2 {
   color: $up-green;
+}
+h3 {
+  margin: 0.75em 0 0.25em;
 }
 
 a {
@@ -91,4 +101,15 @@ ul.menu--main {
 
     }
   }
+}
+
+pre {
+  max-width: 100%;
+  overflow: auto;
+  padding: 1em;
+  border: 1px solid $up-gray;
+}
+
+.terminal:before {
+  content: '$ ';
 }
