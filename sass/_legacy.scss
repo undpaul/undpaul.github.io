@@ -1,0 +1,42 @@
+
+@import url(http://www.undpaul.de/sites/all/themes/frontend/undpaul_weiss/css/stylesheet.css);
+@import url(http://www.undpaul.de/sites/all/themes/frontend/undpaul_weiss/css/style.css);
+
+#site-header {
+  padding-top: 0px;
+}
+
+#site-menu {
+  float: right;
+  width: auto;
+}
+
+pre.terminal:before {
+  content: "$ ";
+}
+
+.footer {
+  text-align: center;
+  padding-top: 30px;
+  font-style: italic;
+}
+
+h3.pane-icon a {
+  color: #0281C7;
+}
+h3.pane-icon a:hover,
+h3.pane-icon a:focus {
+  color: #77B302;
+}
+
+.pane-icon {
+  float: left;
+  display: inline;
+  width: 200px;
+  height: 100px;
+  padding-bottom: 30px;
+}
+
+.clearfix {
+  clear: both;
+}
